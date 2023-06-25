@@ -27,3 +27,10 @@
 
 
 - `python3 manage.py startapp hello` *creates Django app called hello.*  
+
+## Docker portion  
+
+- `docker` *list commands available.*  
+- `docker <COMMAND> --help` *specific help.*  
+- `docker image ls --all` *lists images on machine only.*  
+- `docker container ls --all` or `docker ps -a` *lists all containers on machine, `-a` flag shows non-running containers*

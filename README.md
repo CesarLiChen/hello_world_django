@@ -23,6 +23,7 @@
 - `django-admin startproject web_project .` *creates Django project.*  
 
 - `python3 manage.py runserver` *starts Django's development server.*  
-- `Ctrl-C` *to stop*  
+- `Ctrl-C` *to stop server*  
+
 
 - `python3 manage.py startapp hello` *creates Django app called hello.*  

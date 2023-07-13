@@ -17,7 +17,8 @@
 **Make sure to activate the venv BEFORE running the commands below.**  
 - `python3 -m pip install django`  
 - `python3 -m django --version`  
-- `django-admin startproject web_project .` *creates Django project.*  
+- `django-admin startproject web_project .` *creates Django project.*
+- `python3 manage.py startapp <APP_NAME>` *creates an application that contains models, views, etc.*
 - `python3 manage.py runserver` *starts Django's development server.*  
 - `Ctrl-C` *to stop server.*  
 - `python3 manage.py startapp hello` *creates Django app called hello.*  

@@ -14,7 +14,7 @@
 
 ## Django portion  
 
-**Make sure activate the venv before running commands below.**  
+**Make sure to activate the venv BEFORE running the commands below.**  
 - `python3 -m pip install django`  
 - `python3 -m django --version`  
 - `django-admin startproject web_project .` *creates Django project.*  

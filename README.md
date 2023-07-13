@@ -19,10 +19,10 @@
 - `python3 -m django --version`
 - EXTRA `pip list --local` *lists installed packages in venv.*  
 &nbsp; 
-- `python3 manage.py makemigrations` *creates but does **NOT** apply migrations to installed applications.*
-- `python3 manage.py migrate` *actually applies migrations to database.*  
-  #### :arrow_up_small: **The commands above should be ran everytime the models change in a way that will affect the structure of the data.**  
-&nbsp;  
+  - `python3 manage.py makemigrations` *creates but does **NOT** apply migrations to installed applications.*
+  - `python3 manage.py migrate` *actually applies migrations to database.*  
+    :arrow_up_small: **The commands above should be ran everytime the models change in a way that will affect the structure of the data.**  
+&nbsp;
 - `django-admin startproject web_project .` *creates Django project.*
 - `python3 manage.py startapp <APP_NAME>` *creates an application that contains models, views, etc.*
 - `python3 manage.py runserver` *starts Django's development server.*  

@@ -34,7 +34,7 @@
 - `python3 manage.py test` *runs test that contain **test\*.py** pattern in current directory*
   - `python3 manage.py test --verbosity 2` *displays more information (0, 1[default], 2, 3)*
   - `python3 manage.py test --parallel auto` *runs tests in parallel. **auto** is optional, you can also specify particular number of cores*
-  - `python3 manage.py test [appname].tests.[test*.py].[TestClass].[TestClassMethod]` *for running specific tests, you could run the test.py file itself as well no need to get to the specific method*
+  - `python3 manage.py test [appname].tests.[test_model without .py].[TestClass].[TestClassMethod]` *for running specific tests, you could run the test.py file itself as well no need to get to the specific method*
 - `python3 manage.py collectstatic` *for running test when having errors like: **ValueError: Missing staticfiles manifest entry...***
 
 ## Docker portion  

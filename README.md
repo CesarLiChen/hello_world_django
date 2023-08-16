@@ -37,9 +37,19 @@
   - `python3 manage.py test [appname].tests.[test_model without .py].[TestClass].[TestClassMethod]` *for running specific tests, you could run the test.py file itself as well no need to get to the specific method*
 - `python3 manage.py collectstatic` *for running test when having errors like: **ValueError: Missing staticfiles manifest entry...***
 
+&nbsp;  
+**Requirements**
+- `python3 -m pip freeze > requirements.txt`  
+or
+- `pip3 freeze > requirements.txt`
+
 ## Docker portion  
 
 - `docker` *list commands available.*  
 - `docker <COMMAND> --help` *specific help.*  
 - `docker image ls --all` *lists images on machine only.*  
 - `docker container ls --all` or `docker ps -a` *lists all containers on machine, `-a` flag shows non-running containers*
+
+## Railway  
+
+
